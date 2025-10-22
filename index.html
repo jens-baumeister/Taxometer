@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./template.js"></script>
-    <script src="./script.js"></script>
+    
     <link rel="stylesheet" href="./standard.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./icon/taxameter.png" type="image/x-icon">
     <title>Tax-O-Meter</title>
 </head>
 
-<body>
+<body >
     <header>
         <h1>Tax-O-Meter</h1>
     </header>
     <main>
-        <input id="distance" type="text" value="" placeholder="Gefahrene Kilometer...">
+        <input id="distance" type="number" placeholder="Gefahrene Kilometer...">
         
-        <input type="text" id="time" placeholder="Fahrzeit...">
+        <input type="number" id="time" placeholder="Fahrzeit...">
         <button id="calculate" onclick="calculate()">Berechnen</button>
         
     </main>
@@ -28,5 +28,5 @@
     </footer>
 
 </body>
-
+<script src="script.js"></script>
 </html>
