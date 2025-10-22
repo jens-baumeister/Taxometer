@@ -1,18 +1,15 @@
-let kilometers = document.getElementById("distance").innerHTML;
-let DriveTime = document.getElementById("time").innerHTML;
+function calculate() {
+
+    let kilometers = document.getElementById('distance').value;
+    let DriveTime = document.getElementById('time').value;
 
 
-console.log(kilometers);
-console.log(DriveTime);
+    let x = kilometers * 1.95;
+    let y = DriveTime * 0.0166;
+    let sum = x + y;
 
+    let outPutRef = document.getElementById('output');
+    outPutRef.innerHTML = "Die Fahrt kostet: " + sum.toFixed(2) + " €";
 
-
-
-function calculate(){
-   let x = kilometers.value * 1.95;
-   let y = DriveTime.value * 0.0166;
-   let sum = x + y;
-    console.log(sum);
-    
 }
 
