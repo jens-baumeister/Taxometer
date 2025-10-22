@@ -47,5 +47,5 @@ a {
 button {
     cursor: pointer;
     border: none;
-    background: none;
+    background-color: rgb(166, 159, 159);
 }

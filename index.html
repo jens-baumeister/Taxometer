@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,22 @@
     <link rel="shortcut icon" href="./icon/taxameter.png" type="image/x-icon">
     <title>Tax-O-Meter</title>
 </head>
+
 <body>
     <header>
         <h1>Tax-O-Meter</h1>
     </header>
-    <main></main>
+    <main>
+        <input id="distance" type="text" value="" placeholder="Gefahrene Kilometer...">
+        
+        <input type="text" id="time" placeholder="Fahrzeit...">
+        <button id="calculate" onclick="calculate()">Berechnen</button>
+        
+    </main>
     <footer>
         <p class="copyright">&copy Die Buddys</p>
     </footer>
-    
+
 </body>
+
 </html>
